@@ -1,0 +1,53 @@
+<style is="custom-style">
+	:root {
+		--text-color-base                   : #444;
+		--text-color-base-disabled          : #5c5c5c;
+		--text-font-base                    : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		--text-size-base                    : 13px;
+		--background-color-base-disabled    : #cccccc;
+		--form-element-box-shadow           : 0 0 0 .1em rgba(0, 0, 0, .15) inset;
+		--form-element-inner-box-shadow     : 0 0 .5em rgba(0, 0, 0, .2) inset;
+		--form-element-height               : 2.5em;
+		--form-element-padding-horizontal   : 1em;
+		--form-element-width                : 30em;
+
+		--cs-global : {
+			box-sizing  : border-box;
+			color       : inherit;
+			font-family : inherit;
+			font-size   : inherit;
+			line-height : inherit;
+		};
+		/* Input text */
+
+		--cs-input-text : {
+			border     : none;
+			box-shadow : var(--form-element-box-shadow);
+			height     : var(--form-element-height);
+			max-width  : 100%;
+			padding    : 0 var(--form-element-padding-horizontal);
+			width      : var(--form-element-width);
+		};
+
+		--cs-input-text-focus : {
+			box-shadow : var(--form-element-box-shadow), var(--form-element-inner-box-shadow);
+		};
+
+		--cs-input-text-disabled : {
+			background-color : var(--background-color-base-disabled);
+			color            : var(--text-color-base-disabled);
+		};
+
+		--cs-input-text-readonly : {
+			color : var(--text-color-base-disabled);
+		};
+	}
+
+	html,
+	body {
+		background  : grey;
+		color       : var(--text-color-base);
+		font-family : var(--text-font-base);
+		font-size   : var(--text-size-base);
+	}
+</style>
