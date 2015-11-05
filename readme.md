@@ -1,7 +1,7 @@
-* `good.html` contains import of 3 files: 2 Polymer elements + import of styling using mixins
-* `bad.html` contains import of 1 file that contains everything mentioned above in one place in the same order
+* `good.html` working example
+* `bad.html` slightly modified example that doesn't work
 
-In first case `input[is=cs-input-text]` is styled properly, in second not.
+Border should be blue.
 
 This is in Firefox, Chromium 44 always styles properly.
 

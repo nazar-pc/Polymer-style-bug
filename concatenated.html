@@ -1,22 +1,15 @@
-<dom-module id="cs-icon">>
-	<script>
-		Polymer({
-			'is' : 'cs-icon'
-		});
-	</script>
-</dom-module>
-<style is="custom-style">
-	html /deep/ input[is=cs-input-text] {
-		border : 4px solid red;
-		@apply (--cs-blue);
-	}
-</style>
 <script>
 	Polymer({
 		'is'      : 'cs-input-text',
 		'extends' : 'input'
 	});
 </script>
+<style is="custom-style">
+	html /deep/ input[is=cs-input-text] {
+		border : 4px solid red;
+		@apply (--cs-blue);
+	}
+</style>
 <style is="custom-style">
 	:root {
 		--cs-blue: {
