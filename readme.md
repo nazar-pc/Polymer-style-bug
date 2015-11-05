@@ -7,6 +7,4 @@ This is in Firefox, Chromium 44 always styles properly.
 
 Polymer was combined into single JS and reformatted to be readable.
 
-Source code was taken from real project, so it is as it is.
-
-I left `cs-icon` element, because if I drop it everything starts to work properly, it seems that big CSS causes issues here.
+Source code simplified as much as possible while bug can be still reproduced.
